@@ -1,0 +1,25 @@
+START
+INPUT grade
+IF grade >= 60 THEN
+DISPLAY "Passed"
+ELSE
+DISPLAY "Failed"
+END IF
+END
+
+START
+INPUT number
+IF number >= 0 THEN
+DISPLAY "Positive"
+ELSE
+DISPLAY "Negative"
+END IF
+END
+
+START
+INPUT grade1
+INPUT grade2
+INPUT grade3
+PROCESS average = (grade1 + grade2 + grade3) / 3
+DISPLAY average
+END
